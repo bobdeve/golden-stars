@@ -1,0 +1,49 @@
+
+.numberics-title{
+    text-align: center;
+    margin: 6rem 0;
+    position: relative;
+    color: #023479;
+}
+.numberics-title::after{
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position the pseudo-element */
+    bottom: -15px; /* Adjust this value to control the distance between the heading and the line */
+    left: 45%; /* Align the line with the left edge of the heading */
+    width: 10%; /* Set the desired width of the line */
+    height: 4px; /* Set the thickness of the line */
+    background-color: gold; /* Set the color of the line */
+    padding: 0 auto;
+    text-align: center;
+}
+
+
+
+
+.numeric-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 0 1rem;
+    padding: 1rem auto;
+    
+}
+
+.numeric{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.numeric h1{
+    align-self: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: #023479; /* Text color */
+    text-shadow: 6px 6px 6px gold, 9px 9px 9px #023479; 
+}
+.numeric h4{
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}

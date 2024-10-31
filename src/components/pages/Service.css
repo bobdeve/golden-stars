@@ -1,0 +1,118 @@
+#main-service {
+  width: auto;
+  min-height: 100vh;
+  margin: 0;
+  width: auto;
+  padding: 4rem 1rem;
+  background-color: #fff;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.services {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+#main-service::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(17, 18, 20, 0.5); */
+  z-index: 1;
+}
+
+#main-service > * {
+  position: relative;
+  z-index: 2;
+}
+.service-container-main{
+  display: flex;
+  flex-direction: column;
+  background: rgb(24,67,127);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(23, 18, 18, 0.18);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.service-container {
+ 
+  border-radius: 10px;
+ 
+
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  border: none;
+  
+  
+}
+
+.service-list {
+  border: gold solid 5px;
+  margin-top: 2rem;
+  width: 150px;
+  height: 150px;
+  padding: 2em;
+  transform: rotate(45deg);
+  position: relative;
+  cursor: pointer;
+}
+
+.service-icon {
+  transform: rotate(-45deg);
+  color: gold;
+  position: absolute;
+  left: 20%;
+  bottom: 35%;
+  font-size: 4em;
+}
+.service-title{
+  color: gold;
+}
+.services-disc {
+  margin: 4rem 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  color: #fff;
+}
+.service-learnmore{
+  color: gold;
+  cursor: pointer;
+  padding: 1rem;
+   margin-bottom: 2rem;
+   width: 50%;
+  align-self: center;
+}
+.service-learnmore:hover{
+  color: #0B3672;
+
+  background-color: gold;
+  font: bold;
+  border-radius: 15px;
+}

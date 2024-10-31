@@ -1,0 +1,91 @@
+#main-background{
+    display: flex;
+    flex-direction: column;
+
+}
+.main-bg-title{
+    display: flex;
+    flex-direction: column;
+}
+.main-bg-title img{
+   
+    position: relative;
+}
+.main-bg-title h1{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-size: 60px;
+   background-color: gold;
+   padding: 2rem;
+   color: var(--color-primary);
+   border-radius: 15px;
+   filter: drop-shadow(10px 7px 10px var(--color-secondary));
+}
+.background-disc{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 4rem;
+   
+}
+.background-concatinate{
+   
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+
+}
+.background-concatinate p{
+    
+    font-size: 10px;
+    font-weight: 100;
+}
+.background-disc p h2{
+    font-family: "Roboto", sans-serif;
+    display: block;
+    
+
+}
+
+.background-disc h2{
+    font-weight: 900;
+    font-style: normal;
+    color: var(--color-primary);
+    font-size: 40px;
+}
+.background-disc p{
+    line-height: 2.5;
+    padding: 2rem;
+    font-size: 20px;
+   
+  font-weight: 100;
+  font-style: normal;
+}
+.background-disc ol {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+}
+.background-disc ol li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px gold solid;
+    padding: 1.5rem;
+    border-radius: 45px;
+    filter: drop-shadow(10px 7px 10px gold);
+}
+
+@media (max-width: 1000px){
+    .main-bg-title h1{
+        font-size: 20px;
+        bottom: 0.5rem;
+        left: 0.5rem;
+        padding: 1.5rem;
+    }
+    .background-disc{
+        padding: 0.5rem;
+    }
+}

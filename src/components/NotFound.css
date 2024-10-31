@@ -1,0 +1,18 @@
+.not-found{
+    align-self: center;
+    border: 3px gold solid;
+    text-align: center;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color: #0B3672;
+}
+.not-found-goback{
+    padding: 2rem;
+    background-color: #0B3672;
+    color: gold;
+    width: 60%;
+    margin: 0 auto;
+   
+}

@@ -1,0 +1,54 @@
+#event-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem auto;
+    padding: 1rem ;
+}
+.event-title{
+    text-align: center;
+    color: #023479;
+    margin: 3rem;
+}
+.event-container{
+    width: 100%;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+   
+
+
+}
+.event h3,p{
+   
+    padding-left: 1rem;
+}
+
+.event-pic{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    position: relative;
+  
+}
+.event-info{
+    position: absolute;
+    background: gold;
+    color: #023479;
+    margin-left: 1.5rem;
+    padding: 0.3rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.event-info h1 ,h4{
+    
+    text-align: center;
+}
+.event-info h3{
+    
+    text-align: center;
+}

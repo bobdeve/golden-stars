@@ -1,0 +1,99 @@
+.main-img{
+  position: relative;
+}
+.img-arrow{
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: inherit;
+  height: 90px;
+  width: 200px;
+  text-align: center;
+  margin: 1px auto; /* This will center horizontally */
+  
+}
+.img-arrow1{
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  height: 90px;
+  width: 200px;
+  left: 0;
+  right: 0;
+  background-color: inherit;
+  transform: rotate(180deg)
+}
+.landing-grid-container{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  display: flex;
+  gap: 4rem;
+  
+}
+.sub-grid{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  border-radius: 15px;
+
+}
+.landing-grid-item{
+  background-color:#023479;
+  color: gold;
+ 
+  
+}
+.landing-grid-item-l{
+  background-color: gold;
+  color: #023479;
+ 
+ 
+}
+.landing-grid-item-l , .landing-grid-item{
+  padding: 2rem 3rem;
+  border-radius: 25px;
+  
+}
+
+.icon-landing{
+  font-size: 6em;
+}
+
+@media (max-width: 1190px) {
+  .landing-grid-item-l , .landing-grid-item{
+    padding: 1rem 1rem;
+    
+  }
+  .icon-landing{
+    font-size: 4em;
+  }
+   .img-arrow{
+    height: 70px;
+   }
+}
+@media (max-width: 860px) {
+  .landing-grid-item-l , .landing-grid-item{
+    padding: 0.3rem 0.5rem;
+    
+  }
+  .icon-landing{
+    font-size: 2em;
+  }
+  .landing-grid-container{
+   
+    gap: 1rem;
+  }
+  .sub-grid{
+    gap: 1rem;
+  }
+  .icon-text{
+    font-size: small;
+  }
+  .img-arrow{
+    height: 60px;
+  }
+}

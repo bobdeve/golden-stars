@@ -1,0 +1,77 @@
+#main-explore{
+  text-align: center;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.main-explore {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 1rem 2rem;
+  
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  
+
+    
+  }
+
+  .explore-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem auto 2rem auto;
+    width: 50%;
+    padding-bottom: 1.5rem;
+    position: relative;
+    color: #023479;
+  }
+  .explore-title::after{
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Position the pseudo-element */
+    bottom: -15px; /* Adjust this value to control the distance between the heading and the line */
+    left: 35%; /* Align the line with the left edge of the heading */
+    width: 30%; /* Set the desired width of the line */
+    height: 4px; /* Set the thickness of the line */
+    background-color: gold; /* Set the color of the line */
+    padding: 0 auto;
+    text-align: center;
+  }
+  .explore {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease; /* Add transition for smooth effect */
+  }
+  
+  .explore:hover {
+    transform: scale(1.05); /* Increase size on hover */
+  }
+  
+  img {
+    width: 100%; /* Fill the width of the parent */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  button {
+    padding: 1.5rem;
+    background-color: #023479;
+    color: gold;
+    border: none;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    font-size: large;
+    cursor: pointer;
+  }
+  

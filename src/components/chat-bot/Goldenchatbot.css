@@ -1,0 +1,63 @@
+.chat-bot-container {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    z-index: 9999; /* Ensure it appears above other content */
+  }
+  
+  .chat-bot-floating {
+    /* Add any additional styling you want for the floating chatbot */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .chat-bot-icon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-self: center;
+    cursor: pointer;
+  }
+  .close-icon {
+    padding: 1rem;
+    background-color: white;
+    color: #023479;
+    border-radius: 15px;
+    width: 30%;
+    align-self: center;
+  }
+.icon-robot{
+    color: gold;
+    z-index: 100;
+   
+}  
+.close-icon{
+ text-align: center;
+ z-index: 100;
+}
+
+.chat-bot-icon img{
+  width: auto;
+  height: 100px;
+  filter: drop-shadow(10px 7px 10px gold);
+  /* animation: glow 1.5s infinite alternate; */
+}
+.icon-bot{
+  color: gold;
+  font-size: 400px;
+}
+
+
+/* 
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(255, 223, 0, 0.5), 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 223, 0, 1), 0 0 40px rgba(0, 123, 255, 1);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(255, 223, 0, 0.5), 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+} */

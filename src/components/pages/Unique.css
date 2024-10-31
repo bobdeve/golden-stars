@@ -1,0 +1,119 @@
+.dots-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gold;
+  margin: 0 5px;
+}
+.dots-container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 2.7rem;
+}
+.dot1 {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gold;
+  margin: 0 5px;
+}
+.dots-container1V {
+  display: flex;
+ 
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 2.7rem;
+}
+.dots-containerV{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+
+}
+.dot1V {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gold;
+  margin: 0 5px;
+  display: flex;
+}
+
+
+
+
+
+.main-unique {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+  padding: 3rem ;
+}
+
+.unique-disc {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.unique-title {
+  color: #0B3672;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.unique-title::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: gold;
+  width: 70%;
+  bottom: 0;
+  left: 0;
+  margin-top: 3rem;
+  
+
+}
+
+/* .unique-disc h4 {
+  width: 20%;
+  color: white;
+  position: relative;
+
+}
+.unique-disc > h4 ::after{
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: red;
+  width: 100%;
+  top: 0;
+  right: 0;
+
+} */
+
+.main-unique p {
+  line-height: 30px;
+  font-size: larger;
+}
+
+.main-unique img {
+    width: 100%;
+    height: auto;
+    max-height: 50vh; /* Limit the maximum height of the image */
+    border-radius: 15px;
+  }
